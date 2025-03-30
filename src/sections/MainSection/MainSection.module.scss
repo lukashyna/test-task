@@ -1,0 +1,29 @@
+.main_section{
+    min-height: 500px;
+    background-image: url(../../assets/images/bg-min.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-content: center;
+    color: var(--invert-color);
+
+    @media (min-width: 1024px) {
+        min-height: 650px;
+    }
+  
+    .main_container{
+        max-width: 380px;
+        margin: 0 auto;
+        padding: 0 16px 32px;
+
+        @media (min-width: 768px) {
+            padding: 0;        }
+
+        .main_text{
+            margin-bottom: 30px;
+          }
+      }
+
+      
+}

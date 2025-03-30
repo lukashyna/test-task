@@ -1,0 +1,68 @@
+.textfield_wrapper {
+  text-align: start;
+  
+  &:not(:last-child) {
+    margin-bottom: 51px;
+  }
+
+  .textfield_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--input-border-color);
+    border-radius: 4px;
+    padding: 12px;
+    transition: border-color 0.2s ease;
+    
+    &.focused .textfield_label,
+    .textfield_input:not(:placeholder-shown) + .textfield-label {
+      top: 0px;
+      font-size: 12px;
+    }
+    
+    &.error {
+      border: 2px solid var(--error-color);
+  
+      .textfield_label {
+        color: var(--error-color);
+      }
+    }
+  }
+    
+  .textfield_input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+  }
+    
+  .textfield_label {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s ease-out;
+    background: var(--background-color);
+    padding: 0 4px;
+    color: var(--input-label-color);
+    pointer-events: none;
+  }
+    
+  .textfield_extra {
+    font-size: 12px;
+    color: var(--input-label-color);
+    margin: 3px 16px;
+    text-align: start;
+  }
+    
+  .textfield_error {
+    position: absolute;
+    color: var(--error-color);
+    font-size: 12px;
+    margin: 3px 16px;
+  }
+}
+  
+
+  

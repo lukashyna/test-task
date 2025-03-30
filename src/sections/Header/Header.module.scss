@@ -1,0 +1,32 @@
+header {
+  width: 100%;
+  background-color: var(--invert-color);
+
+  .buttons_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 16px;
+
+    @media (min-width: 768px) {
+      padding: 13px 32px;
+    }
+
+    @media (min-width: 1024px) {
+      padding: 13px 60px;
+    }
+
+    @media (min-width: 1199px) {
+      padding: 13px 0px;
+    }
+  }
+}
+

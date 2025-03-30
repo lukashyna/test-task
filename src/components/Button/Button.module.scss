@@ -1,0 +1,26 @@
+.button {
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px 19px;
+    font-size: 16px;
+    font-weight: var(--body-font-weight);
+    line-height: 0.9;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+  
+    &:hover {
+      background-color: var(--button-hover-color);
+    }
+  
+    &:disabled,
+    &[disabled] {
+      background-color: var(--button-disable-color);
+      color: var(--invert-color);
+      cursor: not-allowed;
+    }
+  }

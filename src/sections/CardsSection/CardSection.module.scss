@@ -1,0 +1,32 @@
+.cards_section {
+  padding: 140px 16px 70px;
+
+  @media (min-width: 768px) {
+    padding: 140px 32px 70px;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 140px 60px 70px;
+  }
+
+  @media (min-width: 1199px) {
+    padding: 140px 0 70px;
+  }
+
+  .card_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 0;
+    margin-bottom: 49px;
+
+    @media (min-width: 768px) {
+      gap: 16px;
+    }
+
+    @media (min-width: 1024px) {
+      gap: 29px;
+    }
+  }
+}
