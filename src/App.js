@@ -7,8 +7,15 @@ import Container from "./components/Container/Container";
 import useUsers from "./hooks/useUsers";
 
 const App = () => {
-  const { users, isLoading, nextPage, error, loadMore, setCurrentPage } =
-    useUsers();
+  const {
+    users,
+    isLoading,
+    nextPage,
+    error,
+    loadMore,
+    setCurrentPage,
+    getUsers,
+  } = useUsers();
 
   const cardProps = {
     users,
@@ -25,7 +32,7 @@ const App = () => {
         <Container>
           <MainSection />
           <CardsSection {...cardProps} />
-          <SignUpSection setCurrentPage={setCurrentPage} />
+          <SignUpSection setCurrentPage={setCurrentPage} getUsers={getUsers} />
         </Container>
       </main>
     </div>

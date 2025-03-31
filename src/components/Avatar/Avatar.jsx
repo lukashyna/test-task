@@ -11,6 +11,7 @@ const Avatar = ({ photo }) => {
       alt="card"
       className={css.avatar}
       onError={() => setImageSrc(coverPhoto)}
+      loading="lazy"
     />
   );
 };

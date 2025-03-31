@@ -39,7 +39,15 @@ const useUsers = () => {
     }
   };
 
-  return { users, isLoading, nextPage, error, loadMore, setCurrentPage };
+  return {
+    users,
+    isLoading,
+    nextPage,
+    error,
+    loadMore,
+    setCurrentPage,
+    getUsers,
+  };
 };
 
 export default useUsers;

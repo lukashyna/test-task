@@ -10,7 +10,7 @@ import { validationSchema } from "./helpers";
 import { initialValues, formFields } from "./constants";
 import styles from "./SignUpForm.module.scss";
 
-const SignUpForm = ({ setIsRegistered, setCurrentPage }) => {
+const SignUpForm = ({ setIsRegistered, setCurrentPage, getUsers }) => {
   const [isLoading, setIsLoading] = React.useState(true);
   const [positions, setPositions] = React.useState([]);
   const [errorMessage, setErrorMessage] = React.useState(null);
@@ -21,6 +21,7 @@ const SignUpForm = ({ setIsRegistered, setCurrentPage }) => {
       setIsRegistered(true);
       setCurrentPage(1);
       setErrorMessage(null);
+      getUsers(1);
     } catch (error) {
       setErrorMessage(error.response.data.message);
     } finally {

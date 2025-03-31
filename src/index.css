@@ -1,3 +1,11 @@
+/* === Fonts === */
+@font-face {
+  font-family: 'Nunito';
+  src: url('/public/fonts/Nunito-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* === Global Styles === */
 :root {
   --primary-color: #F4E041;
