@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/test-task/static/css/main.f6868f28.css",
-    "main.js": "/test-task/static/js/main.e1f48e3d.js",
-    "static/media/bg-min.png": "/test-task/static/media/bg-min.d3f1815edcb6859a85da.png",
+    "main.css": "/test-task/static/css/main.1bf30c67.css",
+    "main.js": "/test-task/static/js/main.56f14648.js",
+    "static/media/bg-min.webp": "/test-task/static/media/bg-min.4c559c12c547fc98ac7e.webp",
     "static/media/success-image.svg": "/test-task/static/media/success-image.147ff01aeb0caaca03a3a94cfe9c0ce6.svg",
     "static/media/logo.svg": "/test-task/static/media/logo.0e017b87089c4474de39dc9dce3c3d1d.svg",
+    "static/media/Nunito-Regular.woff2": "/test-task/static/media/Nunito-Regular.9f3f4583bd7c435a198c.woff2",
     "static/media/photo-cover.svg": "/test-task/static/media/photo-cover.fb98cf13a87225efe558669bdc541ac7.svg",
-    "static/media/loader.svg": "/test-task/static/media/loader.0aaf07f39acaa32ce036564ce35dba88.svg",
+    "static/media/loader.svg": "/test-task/static/media/loader.db9a0aaf5ccb9b2fef2dbf71a7e57400.svg",
     "index.html": "/test-task/index.html",
-    "main.f6868f28.css.map": "/test-task/static/css/main.f6868f28.css.map",
-    "main.e1f48e3d.js.map": "/test-task/static/js/main.e1f48e3d.js.map"
+    "main.1bf30c67.css.map": "/test-task/static/css/main.1bf30c67.css.map",
+    "main.56f14648.js.map": "/test-task/static/js/main.56f14648.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6868f28.css",
-    "static/js/main.e1f48e3d.js"
+    "static/css/main.1bf30c67.css",
+    "static/js/main.56f14648.js"
   ]
 }
